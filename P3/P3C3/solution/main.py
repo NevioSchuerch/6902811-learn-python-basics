@@ -24,7 +24,7 @@ def load(data_to_load):
         writer = csv.DictWriter(file, fieldnames=fieldnames)
         writer.writeheader()
         for data in data_to_load:
-            writer.writerow(data)
+            writer.writerow(data)ppp
 
 def main():
     data_to_transform = extract()
